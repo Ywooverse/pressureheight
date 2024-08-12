@@ -13,4 +13,4 @@ if st.button('계산하기'):
     altitude = calculate_altitude(sea_level_pressure, current_pressure)
     st.success(f'현재 위치의 해면고도: {altitude:.2f} 미터')
 
-st.write('참고: 이 계산은 대략적인 추정치이며, 실제 고도와 차이가 있을 수 있습니다.')
+st.write('참고: 이 계산은 대략적인 추정치이며, 실제 고도와 차이가 있을 수 있습니다.' made by 김우현)
